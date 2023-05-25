@@ -21,10 +21,7 @@ To utilize the custom ISA Assembler, follow these steps:
 
 1. Prepare the assembly program: Write your assembly code in a text file, adhering to the syntax and guidelines specified in the project requirements. Each line should be one of the following types: empty, label, instruction, or variable definition.
 
-2. Run the assembler: Execute the Python script that implements the assembler, providing the assembly program file as input. For example:
-   ```
-   Python SimpleAssembler.py program.asm
-   ```
+2. Run the assembler: Execute the Python script that implements the assembler, providing the assembly program file as input as assembly.txt
 
 3. Review the output: The assembler will generate one or more output files, depending on the result:
    - If there are no errors in the assembly program, a binary file containing the machine code will be produced. Each line of the binary file represents a 16-bit binary number.
